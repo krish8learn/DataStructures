@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/krish8learn/data_structures/LinkedList/src"
+	"github.com/krish8learn/DataStructures/LinkedList/src"
 )
 
 func main() {

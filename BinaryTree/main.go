@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/krish8learn/data_structures/BinaryTree/src"
+	"github.com/krish8learn/DataStructures/BinaryTree/src"
 )
 
 func main() {
