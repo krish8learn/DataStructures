@@ -1,0 +1,28 @@
+We think of it as a tree, but stored in form of array in memory.
+It can be implemented as priority Queue
+
+
+It as a data_structure  can described as complete tree means all the levels are full except 
+for lower levels
+
+Binary heap has max two children for each node
+
+Maxheap ---> largest key stored in the root node
+Minheap ----> Smallest key stored in the root node
+
+Finding the index ---> Parent Index * 2 + 1 = child index(left)
+                       Parent Index * 2 + 1 = child index(right)
+
+Heapify = after taking a node or deleting a node we need to re-arrange the whole node.
+it can be up and down
+
+
+Time complexcity = (insert and extract) log n 
+
+algo
+1.Create struct for heap
+2.Create method1 -->Insert 
+3.Create method2 -->extract
+these methods(1,2) are accessible
+4.Create methods are MaxHeapifyUp, MaxHeapifyDown, swap. 
+
