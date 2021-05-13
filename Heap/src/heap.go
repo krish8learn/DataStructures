@@ -34,7 +34,7 @@ func (h *Heap) BTHeapify(index int) {
 
 //Heapify top to bottom approach
 func (h *Heap) TBHeapify(index int) {
-	l, r := RightIndex(index), LeftIndex(index)
+	l, r := LeftIndex(index), RightIndex(index)
 	comp_element := 0
 	lastIndex := len(h.holder) - 1
 
